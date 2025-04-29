@@ -30,7 +30,7 @@ select (Git gui here)
 a cmd prompt will open
 -------------------------------------
 3)to link the local repository to remote repository 
--> git remote add origin "https://github.com/sandipmohapatra/lgstudents"
+-> git remote add origin "https://github.com/sandipmohapatra/BatchI06"
 
 -------------------------------------------------------------------
 4)to pull the data from remote repository
@@ -42,9 +42,9 @@ vi test.txt
 ----------------------------------------------------------------
 5)git status :- tells you which files are added to index and are ready to commit.
 ------------------------------------------------------------------------------------------------
-6)git add:-lets you to add files to your index.
+6)git add <filename>:-lets you to add files to your index.
 ----------------------------------------------------------------------------------
-7)git commit:- it refers to recording snapshots of the repository at a given time.
+7)git commit -m "This is my first file":- it refers to recording snapshots of the repository at a given time.
 committed snapshots will never change unless done explicitly.
 -----------------------------------------------------------------------------------------------------------
 8)create a text file in local then see the status(first.txt)
@@ -130,7 +130,7 @@ overwrite(y)
 * the key will be stored in /c/Users/sandip/.ssh/id_rsa.pub
 --------------------------------------------------------
 2)see the ssh key
-cat   /c/Users/sandip/.ssh/id_rsa.pub
+cat /c/Users/91977/.ssh/id_ed25519.pub
 ---------------------------------------------------------------
 3)go to setting at the top where we have (profile,logout)
 4)goto SSH and GPG keys
